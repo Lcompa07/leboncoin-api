@@ -23,7 +23,7 @@ jobs:
         run: |
           npm init -y
           npm install leboncoin-api-search
-          sed -i 's/"type": "commonjs"//"type": "module"/' package.json
+          sed -i 's/"type": "commonjs"/"type": "module"/' package.json
 
       - name: Run Scraper
         run: node index.js
