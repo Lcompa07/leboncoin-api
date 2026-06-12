@@ -1,0 +1,8 @@
+{
+  "name": "leboncoin-custom-api",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "leboncoin-api-search": "^2.0.0" 
+  }
+}
